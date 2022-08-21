@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    height: 10vh;
+    padding: 3% 5%;
+    color: #ffffff;
+    /* border: 2px solid green; */
+}
+nav .logo{
+    display: block;
+    width: 80px;
+}
+
+nav .grow-list{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    height: 45px;
+    /* border: 2px solid blue; */
+}
+
+nav .list{
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+    border-left: 1px solid #ffffff;
+    /* border: 2px solid yellow; */
+}
+.list-item{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 13px;
+}
+nav .button-small{
+    border: none;
+    outline: none;
+    width: max-content;
+    padding: 10px 25px;
+    background:#BA0CC5;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.hero{
+    background-image: url(./assets/bg.png);
+    height: 930px;
+    background-size: cover;
+    background-position: center;
+}
+.hero {
+    color: #ffffff;
+    text-align: center;    
+}
+.hero h1, p, .button-large{
+    position: relative;
+    top: 20vh;
+}
+.hero .button-large{
+    position: relative;
+    top: 25vh;
+}
+.hero h1{
+    font-family: 'Montserrat';
+    font-size: 60px;
+}
+.hero p{
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+.hero button{
+    border: none;
+    outline: none;
+    width: max-content;
+    padding: 10px 25px;
+    background:#BA0CC5;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.fa-solid{
+    background: #000;
+    color: #ffffff;
+    display: none;
+}
+
+.list-item:hover{
+    cursor: pointer;
+}
+/* 
+-where to apply padding and where to apply margin
+-time taken: 3hr
+-how to handle image
+-
+*/
